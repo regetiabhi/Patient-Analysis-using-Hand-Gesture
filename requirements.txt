@@ -1,0 +1,11 @@
+# Computer Vision & Landmark Extraction
+opencv-python
+mediapipe
+
+# Data Handling & Machine Learning
+pandas
+numpy
+scikit-learn
+
+# Web Interface (Proposed System)
+flask

@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container animate__animated animate__fadeIn">
+    
+    <div class="row mb-5 align-items-center">
+        <div class="col-lg-6">
+            <h1 class="fw-bold display-5">System Methodology</h1>
+            <p class="lead text-muted">
+                A vision-based approach extracting 21 hand landmarks to enable non-verbal communication for patients[cite: 31, 63].
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                 alt="Medical Technology" class="img-fluid rounded-5 shadow-lg">
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm feature-card rounded-4 overflow-hidden">
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                     class="card-img-top" alt="Data Collection" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="fw-bold">1. Data Collection</h5>
+                    <p class="small text-muted">Extracting MediaPipe key points for specific patient needs[cite: 151].</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm feature-card rounded-4 overflow-hidden">
+                <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                     class="card-img-top" alt="Machine Learning" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="fw-bold">2. Model Training</h5>
+                    <p class="small text-muted">Training RF, SVM, and KNN on extracted gesture features[cite: 65].</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm feature-card rounded-4 overflow-hidden">
+                <img src="https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                     class="card-img-top" alt="Healthcare" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="fw-bold">3. Output Prediction</h5>
+                    <p class="small text-muted">Real-time gesture-to-text translation for assistive healthcare[cite: 68].</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

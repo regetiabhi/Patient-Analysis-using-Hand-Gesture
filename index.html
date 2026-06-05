@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="row align-items-center py-5 animate__animated animate__fadeIn">
+    <div class="col-lg-6">
+        <span class="badge bg-soft-primary text-primary mb-2 px-3 py-2 rounded-pill">Sathyabama IST - Project Phase 1</span>
+        <h1 class="display-3 fw-bold text-dark">Empowering Patients Through <span class="text-primary">AI Gestures</span></h1>
+        <p class="lead text-muted mt-3">
+            An innovative solution designed to translate intuitive hand gestures into text, enabling individuals with verbal communication difficulties to express their needs effectively[cite: 31, 32].
+        </p>
+        <div class="mt-4">
+            <a href="/detector" class="btn btn-primary btn-lg shadow-sm me-3 px-4">Start Detection</a>
+            <a href="#problem-statement" class="btn btn-outline-dark btn-lg px-4">Learn More</a>
+        </div>
+    </div>
+    <div class="col-lg-6 mt-5 mt-lg-0">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" 
+             alt="AI Engineering" class="img-fluid rounded-5 shadow-lg">
+    </div>
+</div>
+
+<section id="problem-statement" class="py-5 bg-white rounded-5 shadow-sm my-5 px-4 animate__animated animate__fadeInUp">
+    <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-8">
+            <h2 class="fw-bold">The Challenge</h2>
+            <p class="text-muted">Addressing the communication gap in healthcare environments.</p>
+        </div>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="p-3 border-start border-danger border-4">
+                <h5>High Variability</h5>
+                <p class="small text-muted">Building models that generalize across different users and hand shapes is a major technical challenge[cite: 40].</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border-start border-warning border-4">
+                <h5>Real-Time Demand</h5>
+                <p class="small text-muted">System must process gestures instantly without sacrificing accuracy in live environments[cite: 42, 43].</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border-start border-primary border-4">
+                <h5>Dataset Scarcity</h5>
+                <p class="small text-muted">Lack of annotated gesture datasets limits the performance of standard machine learning models[cite: 44].</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="row g-4 py-5">
+    <div class="col-12 text-center mb-4">
+        <h2 class="fw-bold">System Advantages</h2>
+    </div>
+    <div class="col-md-3">
+        <div class="card h-100 feature-card border-0 shadow-sm p-4 text-center">
+            <i class="fa-solid fa-universal-access fs-1 text-primary mb-3"></i>
+            <h6>Non-Verbal Support</h6>
+            <p class="x-small text-muted">Enables communication for those with speech impairments[cite: 71].</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card h-100 feature-card border-0 shadow-sm p-4 text-center">
+            <i class="fa-solid fa-face-smile fs-1 text-success mb-3"></i>
+            <h6>User-Friendly</h6>
+            <p class="x-small text-muted">No typing or touching required; uses natural gestures[cite: 75].</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card h-100 feature-card border-0 shadow-sm p-4 text-center">
+            <i class="fa-solid fa-hospital-user fs-1 text-info mb-3"></i>
+            <h6>Hygiene-Sensitive</h6>
+            <p class="x-small text-muted">Contactless operation is ideal for hospital settings[cite: 83].</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card h-100 feature-card border-0 shadow-sm p-4 text-center">
+            <i class="fa-solid fa-expand fs-1 text-warning mb-3"></i>
+            <h6>Scalable</h6>
+            <p class="x-small text-muted">Gesture vocabulary can be expanded for future upgrades[cite: 85].</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
